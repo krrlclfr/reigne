@@ -20,17 +20,17 @@
     <div v-show="view_content"> 
       <div class="relative">
         <h1 class="title absolute top-56 md:inset-x-1/3 lg:inset-x-1/3 text-center p-4"> HELLO REIGNE I KNOW IT'S YOU! </h1>
-        <img src="/public/bg-motor.gif" class="h-screen w-screen"/>
+        <img src="@/assets/bg-motor.gif" class="h-screen w-screen"/>
       </div>
       <div class="container-lg bg-zinc-950 h-full w-full">
         <div class="grid grid-rows-1 grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 text-center"> 
           <div class="flex justify-center items-center"> 
-            <img src="/public/driver.png" class="w-2/3"/> 
+            <img src="@/assets/driver.png" class="w-2/3"/> 
           </div>
           <div> 
             <div class="flex justify-center items-center"> 
               <video muted class="h-3/4" controls>
-                <source src="/public/vid.mov" type="video/mov"/>
+                <source src="@/assets/vid.mov" type="video/mov"/>
               </video>
             </div>
             <p class="subtitle2 mt-4 text-center"> 
@@ -43,7 +43,7 @@
             </p>
           </div>
           <div class="flex justify-center items-center"> 
-            <img src="/public/car.png" class="w-2/3"/>  
+            <img src="@/assets/car.png" class="w-2/3"/>  
           </div>
         </div>
       </div>
